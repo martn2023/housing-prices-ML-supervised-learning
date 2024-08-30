@@ -1,2 +1,5 @@
 #this allows us to have those responsive notebooks
 jupyter
+
+# Among many uses, will convert CSV data into a spreadsheet
+pandas
