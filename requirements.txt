@@ -3,3 +3,9 @@ jupyter
 
 # Among many uses, will convert CSV data into a spreadsheet
 pandas
+
+# the tool for data visualization
+matplotlib
+
+# enables interactive widgets and responsive plots?
+ipympl
