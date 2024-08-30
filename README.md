@@ -1,5 +1,6 @@
-# Housing Price Predictor
+<div style="font-size: 75%;">
 
+# Housing Price Predictor
 
 ## Author's context:
 I've built out some basic web apps, but this would be my first AI/ML project.
@@ -67,3 +68,5 @@ Never heard of this before, but just used it convert string data in the ocean pr
 ## Potential improvements:
 >**PLACEHOLDER:**<br>
 placeholder text
+
+</div>
