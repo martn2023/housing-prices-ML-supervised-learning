@@ -46,8 +46,8 @@ Heard of this many times during my LeetCode days, but never touched it because i
 >**SciPy**
 Never heard of this before, but just used it convert string data in the ocean proximity dimension into multiple columns i.e. One-Hot Encoding
 
-
-## Sample screenshots:
+## How to use:
+There's a folder of "notebooks", and the file numbering indicates a chronological order, but here's some screenshots to show the gist:
 
 
 ## Learnings:
@@ -68,5 +68,6 @@ Never heard of this before, but just used it convert string data in the ocean pr
 ## Potential improvements:
 >**PLACEHOLDER:**<br>
 placeholder text
+
 
 </div>
