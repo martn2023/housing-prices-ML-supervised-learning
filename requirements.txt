@@ -1,0 +1,2 @@
+#this allows us to have those responsive notebooks
+jupyter

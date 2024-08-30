@@ -45,17 +45,13 @@ Heard of this many times during my LeetCode days, but never touched it because i
 >**SciPy**
 Never heard of this before, but just used it convert string data in the ocean proximity dimension into multiple columns i.e. One-Hot Encoding
 
-## Potential improvements:
->**PLACEHOLDER:**<br>
-placeholder text
- 
 
-## Considerations:
-- Dividing notebooks up
+## Sample screenshots:
+
 
 ## Learnings:
 - There's a complementary tool "Hugging Face" I could use in future projects to host data, if viewers need more evidence beyond screenshots.
-- Don't be suprised if your requirements.txt only lists 6 libraries, but your installation produces 20 packages. This is the result of a "dependency chain"
+- Don't be surprised if your requirements.txt only lists 6 libraries, but your installation produces 20 packages. This is the result of a "dependency chain"
 - Jupyter can be powerful because it allows you to see visual outputs (see later comment about matplot)
 - When I got the section about splitting data into 2 sets, I learned that a function can return multiple outputs, so long as they are in tuples (not something you'd ever see on LeetCode)
 - I always knew that tuples were like an immutable version of a list, but there was never a need to use them on LeetCode because the memory savings wasn't worth the trouble. Now I see that tuples, because they are locked-in, could be used as a dictionary key, which might have impacted my strategy for solving the DSA question in my first technical interview!
@@ -67,4 +63,7 @@ placeholder text
 - During stratified sampling, we set up "bins" just like in our Tableau days to divide districts by household income (bottom group 1 being < $15,000). Out of 20K districts, we found that ~4% were in group 1 income range, so the stratified sampling will ensure 4% of the training data prioritizes pulling random rows that are in that income range.
 - When switching machines, I had to re-install 6 packages and I didn't know realize until that moment how large some of the libaries were, and how the internet can be so slow it gives timeout errors. Might be smart to prep devices before entering a cruise ship or a flight
 - You can get the same randomized outcomes based on the seed value across multiple devices - it doesn't mean there was no randomness!
-- 
+
+## Potential improvements:
+>**PLACEHOLDER:**<br>
+placeholder text
