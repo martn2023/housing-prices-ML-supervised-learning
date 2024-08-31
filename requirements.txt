@@ -9,3 +9,9 @@ matplotlib
 
 # enables interactive widgets and responsive plots?
 ipympl
+
+#if nothing else, has the utility for splitting the original dataframe into training vs. testing subsets
+scikit-learn
+
+#Needs this for stratified sampling or any large data moves like sorting, indexing or shuffling
+numpy
