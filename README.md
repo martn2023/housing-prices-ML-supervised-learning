@@ -1,25 +1,30 @@
-<div style="font-size: 75%;">
-
 # Housing Price Predictor
 
 ## Author's context:
 I've built out some basic web apps, but this would be my first AI/ML project.
 
 ## What I built:
-- Using ML (supervised learning), I discovered the best way to predict an individual house's market value based on parameters such as size, location, and age (much like Zillow.com's Zestimate feature) At a high-level:
+- Using ML (supervised learning), I discovered the best way to predict an individual house's market value based on parameters such as size, location, and age (much like Zillow.com's Zestimate feature) At a high-level. Findings are presented in chronologically-numbered Jupyter notebooks:
 
-    ### Data Collection:
-  - Leaned on existing, but imperfect, dataset from the public web
-  - Getting a quick overview of data (e.g. row count, medians, basic histograms)
-  - Creating stable roots of hash values to avoid inconsistencies of refreshes/re-imports
-  - Random sampling, replaced by stratified sampling (by household income bins)
+    ### 1. Data Collection:
+  - Leans on existing, but imperfect, dataset from the public web
+  - Gets quick overview of data types, basic stats
 
-  ### Data Exploration:
-  - Addressed missing values and employed encoding
+  ### 2. Data Splitting:
+  - Creates stable roots of hash values to avoid inconsistencies of refreshes/re-imports
+  - Upgrades random sampling with stratified sampling (based on median income)
 
-  ### Data transformation:
-  - Feature engineering
+  ### 3. EDA (Exploratory Data Analysis):
+  - Geographic mapping, with opacity -> data density and color -> density population
+  - Correlation matrix for numeric dimensions only
+  - Scatter matrix
+  - Experiment on 3 new KPIs e.g. "rooms per household"
 
+  ### 4. Data Preparation:
+  - Data Cleaning
+  - Custom Transformation + Encoding
+  - Feature Engineering
+  - Feature Scaling
 
   ### Model Selection & Training:
     Per textbook, I sampled only 3 common methods and then measured stats like MSE, RMSE and R-Squared:
@@ -27,7 +32,7 @@ I've built out some basic web apps, but this would be my first AI/ML project.
   - Decision Tree Regression
   - Random Forest Regression
 
-  ### Model evaluation:
+  ### Fine-Tuning:
   - Scores represented as MSE, RMSE, R^2
   - Cross validation, which is kind of like a tournament of the 3 players (competing models) involved 
 
@@ -75,6 +80,3 @@ There's a folder of "notebooks", and the file numbering indicates a chronologica
 ## Potential improvements:
 >**PLACEHOLDER:**<br>
 placeholder text
-
-
-</div>
