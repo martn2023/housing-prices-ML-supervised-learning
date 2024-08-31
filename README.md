@@ -10,9 +10,16 @@ I've built out some basic web apps, but this would be my first AI/ML project.
 
     ### Data Collection:
   - Leaned on existing, but imperfect, dataset from the public web
+  - Getting a quick overview of data (e.g. row count, medians, basic histograms)
+  - Creating stable roots of hash values to avoid inconsistencies of refreshes/re-imports
+  - Random sampling, replaced by stratified sampling (by household income bins)
 
-  ### Data Exploration and Preprocessing:
+  ### Data Exploration:
   - Addressed missing values and employed encoding
+
+  ### Data transformation:
+  - Feature engineering
+
 
   ### Model Selection & Training:
     Per textbook, I sampled only 3 common methods and then measured stats like MSE, RMSE and R-Squared:
