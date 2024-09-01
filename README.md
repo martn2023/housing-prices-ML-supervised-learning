@@ -24,8 +24,7 @@ I've built out some basic web apps, but this would be my first AI/ML project.
   - Data Cleaning e.g. filling in blank rows
   - Encoding (non-numerical dimensions e.g. ocean proximity)
   - Custom Transformation (repeatable way of adding additional dimensions like bedrooms:rooms ratio)
-  - Feature Engineering
-  - Feature Scaling
+  - Feature Scaling (chose Standardization)
 
   ### Model Selection & Training:
     Per textbook, I sampled only 3 common methods and then measured stats like MSE, RMSE and R-Squared:
