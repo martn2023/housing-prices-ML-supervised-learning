@@ -76,6 +76,9 @@ There's a folder of "notebooks", and the file numbering indicates a chronologica
 - During stratified sampling, we set up "bins" just like in our Tableau days to divide districts by household income (bottom group 1 being < $15,000). Out of 20K districts, we found that ~4% were in group 1 income range, so the stratified sampling will ensure 4% of the training data prioritizes pulling random rows that are in that income range.
 - When switching machines, I had to re-install 6 packages and I didn't know realize until that moment how large some of the libaries were, and how the internet can be so slow it gives timeout errors. Might be smart to prep devices before entering a cruise ship or a flight
 - You can get the same randomized outcomes based on the seed value across multiple devices - it doesn't mean there was no randomness!
+- I was surprised at how 95% of the time and effort was on data gathering and collection, just to get that juicy 5% of analysis and insight. If this wasn't a beginner project leveraging and existing dataset, it might have taken days or weeks just to build that data set of 20,000 rows and I'm not even sure how accurate and complete it would be. Reminds of how a finance team has a lot of bookkeepers and general ledger staff, but there's only 1 CFO gaining and communicating huge insights to the leadership team.
+
+
 
 ## Potential improvements:
 >**PLACEHOLDER:**<br>
