@@ -21,8 +21,9 @@ I've built out some basic web apps, but this would be my first AI/ML project.
   - Experiment on 3 new KPIs e.g. "rooms per household"
 
   ### 4. Data Preparation:
-  - Data Cleaning
-  - Custom Transformation + Encoding
+  - Data Cleaning e.g. filling in blank rows
+  - Encoding (non-numerical dimensions e.g. ocean proximity)
+  - Custom Transformation
   - Feature Engineering
   - Feature Scaling
 
