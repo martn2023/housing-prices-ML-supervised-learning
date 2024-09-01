@@ -15,3 +15,6 @@ scikit-learn
 
 #Needs this for stratified sampling or any large data moves like sorting, indexing or shuffling
 numpy
+
+# Need Pickle or JobLib so that Jupyter can store pipelines and re-use them in other notebooks
+#joblib appears to be redundant because it was most likely baked into scikit-learn's installation
