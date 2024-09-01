@@ -23,7 +23,7 @@ I've built out some basic web apps, but this would be my first AI/ML project.
   ### 4. Data Preparation:
   - Data Cleaning e.g. filling in blank rows
   - Encoding (non-numerical dimensions e.g. ocean proximity)
-  - Custom Transformation
+  - Custom Transformation (repeatable way of adding additional dimensions like bedrooms:rooms ratio)
   - Feature Engineering
   - Feature Scaling
 
