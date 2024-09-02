@@ -20,36 +20,34 @@ I've built out some basic web apps, but this would be my first AI/ML project.
   - Scatter matrix
   - Experiment on 3 new KPIs e.g. "rooms per household"
 
-  ### 4. Data Preparation:
+  ### 4. Data Preparation & Model Training & Evaluation:
   - Data Cleaning e.g. filling in blank rows
   - Encoding (non-numerical dimensions e.g. ocean proximity)
   - Custom Transformation (repeatable way of adding additional dimensions like bedrooms:rooms ratio)
   - Feature Scaling (chose Standardization)
-
-  ### Model Selection & Training:
-    Per textbook, I sampled only 3 common methods and then measured stats like MSE, RMSE and R-Squared:
-  - Linear Regression (eventual winner)
-  - Decision Tree Regression
-  - Random Forest Regression
-
-  ### Fine-Tuning:
-  - Scores represented as MSE, RMSE, R^2
+  - Per textbook, I sampled only 3 common methods and then measured accuracy with RSME:
+    - Linear Regression
+    - Decision Tree Regression
+    - Random Forest Regression
   - Cross validation, which is kind of like a tournament of the 3 players (competing models) involved 
+  - Fine-tuning
+  - Custom Pipelines
+  - Machine Learning to test out different settings
 
   ### Conclusion:
-  - INTENTIONALLY LEFT BLANK
+  - This was a neat project in the sense that I finally used Machine Learning, but I was a little disappointed by big the RMSE was. It offered some value, but not as clean of predictive value as I was expecting. 
 
 ## New technical achievements:
->**JUPYTER**
+>**Jupyter**
 Up until now, I have always used Pycharm to print out statements to test my code. The first benefit I noticed to this was the ability to display visuals
 
->**PANDAS**
+>**Pandas**
 Since I got my start on LeetCode, my original training forced me to use only the core Python functions for solving problems, and I never used libraries like NumPy or Pandas to do calculations. Now I see that Pandas is kind of like giving Python a path to SQL-like queries: "Group this data by X, then return Y description such as an average or a count"
 
->**MATPLOTLIB**
+>**Matplotlib**
 I had seen in a YouTube parody how Python can produce visuals, but I never knew how. This is the visualization tool.
 
->**SCIKIT-LEARN / SKLEARN**
+>**Sci-kit Learn / SKLEARN**
 I never heard of this tool, because I haven't touched anything related to data science or ML.
 
 >**NumPy**
@@ -58,9 +56,24 @@ Heard of this many times during my LeetCode days, but never touched it because i
 >**SciPy**
 Never heard of this before, but just used it convert string data in the ocean proximity dimension into multiple columns i.e. One-Hot Encoding
 
-## How to use:
-There's a folder of "notebooks", and the file numbering indicates a chronological order, but here's some screenshots to show the gist:
 
+## How to use:
+Please see the Jupyter notebooks, formatted as .ipynb files and numbered chronologically:
+![img.png](img.png)
+
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
+
+![img_3.png](img_3.png)
+
+![img_5.png](img_5.png)
+
+![img_6.png](img_6.png)
+
+![img_7.png](img_7.png)
+
+![img_8.png](img_8.png)
 
 ## Learnings:
 - There's a complementary tool "Hugging Face" I could use in future projects to host data, if viewers need more evidence beyond screenshots.
@@ -82,4 +95,6 @@ There's a folder of "notebooks", and the file numbering indicates a chronologica
 
 ## Potential improvements:
 >**PLACEHOLDER:**<br>
-placeholder text
+- It might have helped to throw out the white noise features before running test data e.g. status as an Island property
+- It was very cumbersome trying to re-use and modularize Pipeline code. If I was starting over from scratch, I might tuck that away in separate Python files outside the notebooks
+- If I had unlimited time, I would have had a dedicated a section to showing examples of test data's predictions vs actuals
