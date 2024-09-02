@@ -3,6 +3,9 @@
 ## Author's context:
 I've built out some basic web apps, but this would be my first AI/ML project.
 
+This is a classic ML/supervised learning exercise where I'll try to figure learn about predicting housing price predictions. An ex-Google dev showed me an industry standard book:
+[Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646) by Aurelien Geron. Knowing what I know now, I don't think this was a beginner-friendly book.
+
 ## What I built:
 - Using ML (supervised learning), I discovered the best way to predict an individual house's market value based on parameters such as size, location, and age (much like Zillow.com's Zestimate feature) At a high-level. Findings are presented in chronologically-numbered Jupyter notebooks:
 
@@ -58,7 +61,7 @@ Never heard of this before, but just used it convert string data in the ocean pr
 
 
 ## How to use:
-Please see the Jupyter notebooks, formatted as .ipynb files and numbered chronologically:
+No need to download/run anything. Can conveniently be viewed in GitHub. Please see the Jupyter notebooks, formatted as .ipynb files and numbered chronologically:
 ![img.png](img.png)
 
 ![img_1.png](img_1.png)
