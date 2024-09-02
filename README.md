@@ -1,13 +1,14 @@
 # Housing Price Predictor
 
 ## Author's context:
-I've built out some basic web apps, but this would be __my first AI/ML project__. <ins>italics check</ins>
+I've built out 3 basic CRUD web apps with databases, but this was <ins>__my first AI/ML project__</ins>.
 
 This is a classic ML/supervised learning exercise where I find optimal methods for predicting housing prices. An ex-Google dev showed me an industry standard book:
 [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646) by Aurelien Geron. Knowing what I know now, I don't think this was a beginner-friendly book.
 
 ## What I built:
-- Using ML (supervised learning), I discovered the best way to predict an individual house's market value based on parameters such as size, location, and age (much like Zillow.com's Zestimate feature) At a high-level. Findings are presented in chronologically-numbered Jupyter notebooks:
+Findings are presented in <ins>__chronologically-numbered Jupyter notebooks__</ins> aand intended to be viewed on GitHub as a standalone i.e. no need to download/run anything.
+![img.png](img.png)
 
     ### 1. Data Collection:
   - Leans on existing, but imperfect, dataset from the public web
@@ -42,16 +43,16 @@ This is a classic ML/supervised learning exercise where I find optimal methods f
 
 ## New technical achievements:
 >**Jupyter**
-Up until now, I have always used Pycharm to print out statements to test my code. The first benefit I noticed to this was the ability to display visuals
+Up until now, I have only used Pycharm to print out statements to test my code. This is an interactive code-testing tool that lets me see results faster.
 
 >**Pandas**
-Since I got my start on LeetCode, my original training forced me to use only the core Python functions for solving problems, and I never used libraries like NumPy or Pandas to do calculations. Now I see that Pandas is kind of like giving Python a path to SQL-like queries: "Group this data by X, then return Y description such as an average or a count"
+Since I got my start on LeetCode, my original training forced me to use only the core Python functions for solving problems, and I never used libraries like NumPy or Pandas to do calculations. Now I see that Pandas is kind of like giving Python a path to SQL-like queries: "Group this data by X, then return Y description such as an average or a count". It let me convert CSV files into spreadsheets so I didn't have to keep making new tables in a Postgres database.
 
 >**Matplotlib**
 I had seen in a YouTube parody how Python can produce visuals, but I never knew how. This is the visualization tool.
 
 >**Sci-kit Learn / SKLEARN**
-I never heard of this tool, because I haven't touched anything related to data science or ML.
+I never heard of this tool, because I haven't touched anything related to data science or ML. This is the tool that holds the predictive models like Linear Regression, Decision Tree, and Random Forest
 
 >**NumPy**
 Heard of this many times during my LeetCode days, but never touched it because it would be cheating during an interview. Just used it to produce a stratified sampling (by median household income), followed by first histogram
@@ -60,9 +61,7 @@ Heard of this many times during my LeetCode days, but never touched it because i
 Never heard of this before, but just used it convert string data in the ocean proximity dimension into multiple columns i.e. One-Hot Encoding
 
 
-## How to use:
-No need to download/run anything. Can conveniently be viewed in GitHub. Please see the Jupyter notebooks, formatted as .ipynb files and numbered chronologically:
-![img.png](img.png)
+## Illustrative, but not comprehensive, screenshots:
 
 ![img_1.png](img_1.png)
 
@@ -94,10 +93,16 @@ No need to download/run anything. Can conveniently be viewed in GitHub. Please s
 - You can get the same randomized outcomes based on the seed value across multiple devices - it doesn't mean there was no randomness!
 - I was surprised at how 95% of the time and effort was on data gathering and collection, just to get that juicy 5% of analysis and insight. If this wasn't a beginner project leveraging and existing dataset, it might have taken days or weeks just to build that data set of 20,000 rows and I'm not even sure how accurate and complete it would be. Reminds of how a finance team has a lot of bookkeepers and general ledger staff, but there's only 1 CFO gaining and communicating huge insights to the leadership team.
 
-
-
 ## Potential improvements:
->**PLACEHOLDER:**<br>
-- It might have helped to throw out the white noise features before running test data e.g. status as an Island property
+>**Code structure:**<br>
 - It was very cumbersome trying to re-use and modularize Pipeline code. If I was starting over from scratch, I might tuck that away in separate Python files outside the notebooks
-- If I had unlimited time, I would have had a dedicated a section to showing examples of test data's predictions vs actuals
+- The offshoot to the above is that I was forced to jam 3 notebooks into the 4th and final notebook. Ideally, I would have had
+  - notebook 4 for data prep
+  - notebook 5 for model selection and training
+  - notebook 6 for model evaluation
+
+>**Analysis:**<br>
+- It might have helped to throw out the white noise features before running test data e.g. status as an Island property
+
+>**Product/UI:**<br>
+- Completely out of scope for this quick beginner project, but it would be educational and maybe more convincing to the end user if I dedicated a section to showing a spreadsheet of test data's predictions vs. actuals for 15 randomly selected rows
