@@ -1,11 +1,7 @@
 # Housing Price Predictor
 
-<span style="background-color: yellow">highlighted text</span>
-subtly highlighted text
-
-
 ## Author's context:
-I've built out some basic web apps, but this would be <span style="background-color: rgba(255, 255, 0, 0.2)">my first AI/ML project</span>.
+I've built out some basic web apps, but this would be __my first AI/ML project__. <ins>italics check</ins>
 
 This is a classic ML/supervised learning exercise where I find optimal methods for predicting housing prices. An ex-Google dev showed me an industry standard book:
 [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646) by Aurelien Geron. Knowing what I know now, I don't think this was a beginner-friendly book.
