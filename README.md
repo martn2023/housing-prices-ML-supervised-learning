@@ -107,6 +107,7 @@ Never heard of this before, but just used it convert string data in the ocean pr
 
 >**Analysis:**<br>
 - It might have helped to throw out the white noise features before running test data e.g. status as an Island property
+- OUTLIERS: There might be unusual situations with (e.g. room counts or average income) where it makes sense to toss out extremes.
 
 >**Product/UI:**<br>
 - Completely out of scope for this quick beginner project, but it would be educational and maybe more convincing to the end user if I dedicated a section to showing a spreadsheet of test data's predictions vs. actuals for 15 randomly selected rows
