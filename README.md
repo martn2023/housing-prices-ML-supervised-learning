@@ -100,7 +100,7 @@ Never heard of this before, but just used it convert string data in the ocean pr
 ## Potential improvements:
 >**Code structure:**<br>
 - It was very cumbersome trying to re-use and modularize Pipeline code. If I was starting over from scratch, I might tuck that away in separate Python files outside the notebooks
-- The offshoot to the above is that I was forced to jam 3 notebooks into the 4th and final notebook. Ideally, I would have had
+- The offshoot to the above is that I was forced to jam 3 notebooks into the 4th and final notebook. Ideally, I would have had:
   - notebook 4 for data prep
   - notebook 5 for model selection and training
   - notebook 6 for model evaluation
@@ -111,3 +111,4 @@ Never heard of this before, but just used it convert string data in the ocean pr
 
 >**Product/UI:**<br>
 - Completely out of scope for this quick beginner project, but it would be educational and maybe more convincing to the end user if I dedicated a section to showing a spreadsheet of test data's predictions vs. actuals for 15 randomly selected rows
+- After publishing this, a LinkedIn engineer just exposed me to the idea of "markup cells" in Jupyter. I tested this on the beginning of Notebook1, and will reconsider how I approach notebook formatting in future projects.
