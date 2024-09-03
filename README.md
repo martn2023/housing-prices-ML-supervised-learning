@@ -6,7 +6,12 @@ I've built out 3 basic CRUD web apps with databases, but this was <ins>__my firs
 This is a classic ML/supervised learning exercise where I find optimal methods for predicting housing prices. An ex-Google dev showed me an industry standard book:
 [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646) by Aurelien Geron. Knowing what I know now, I don't think this was a beginner-friendly book.
 
-I tried this project 8 weeks ago, but skipped over certain parts, did them correctly, or did them without a complete understanding of the rationale. Feeling a lot better with this V2.
+I tried this project 8 weeks ago, but hit the RESET button because:
+- the v1 skipped over certain parts
+- did some parts incorrectly, or
+- I did them without a complete understanding of the rationale.\
+
+__Feeling a lot better with this V2.__
 
 ## What I built:
 Findings are presented in <ins>__chronologically-numbered Jupyter notebooks__</ins> aand intended to be viewed on GitHub as a standalone i.e. no need to download/run anything.
