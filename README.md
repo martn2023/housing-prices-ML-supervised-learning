@@ -14,10 +14,18 @@ I tried this project 8 weeks ago, but hit the RESET button because:
 __Feeling a lot better with this V2.__
 
 ## What I built:
-Findings are presented in <ins>__chronologically-numbered Jupyter notebooks__</ins> aand intended to be viewed on GitHub as a standalone i.e. no need to download/run anything.
+- I went through 20,000 different housing districts in California and looked at what data was conveniently labelled for me including but not limited to:
+  - median household income the area
+  - number of rooms
+  - proximity to water
+  - AVERAGE PRICE OF A HOME IN THAT AREA
+- The question is whether I could build a statistic model that would accept inputs like an individual house's location, size, age and predict the FMV (fair market value) of that house within a reasonable range of accuracy
+
+- Findings are presented in <ins>__chronologically-numbered Jupyter notebooks__</ins> aand intended to be viewed on GitHub as a standalone i.e. no need to download/run anything.
+
 ![img.png](img.png)
 
-    ### 1. Data Collection:
+### 1. Data Collection:
   - Leans on existing, but imperfect, dataset from the public web
   - Gets quick overview of data types, basic stats
 
