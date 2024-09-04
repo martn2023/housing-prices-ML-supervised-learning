@@ -131,7 +131,14 @@ Never heard of this before, but just used it convert string data in the ocean pr
 >**Analysis:**<br>
 - It might have helped to throw out the white noise features before running test data e.g. status as an Island property
 - OUTLIERS: There might be unusual situations with (e.g. room counts or average income) where it makes sense to toss out extremes.
+- I don't know that I like how household age was capped at 50 years - bunching all of those incomes together created an artificially homogenized bucket
+
+![img_12.png](img_12.png)
 
 >**Product/UI:**<br>
 - Completely out of scope for this quick beginner project, but it would be educational and maybe more convincing to the end user if I dedicated a section to showing a spreadsheet of test data's predictions vs. actuals for 15 randomly selected rows
+- Integers greater than 1,000 were hard to read due to the lack of commas. Given that I'm a novice and the focus of this project isn't the cosmetics, I kept the code simple this time around. Would edit it before presenting in leadership meetings:
+
+![img_13.png](img_13.png)
+
 - After publishing this, a LinkedIn engineer just exposed me to the idea of "markup cells" in Jupyter. I tested this on the beginning of Notebook1, and will reconsider how I approach notebook formatting in future projects.
