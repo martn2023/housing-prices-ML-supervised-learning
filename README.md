@@ -7,9 +7,9 @@ This is a classic ML/supervised learning exercise where I find optimal methods f
 [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646) by Aurelien Geron. Knowing what I know now, I don't think this was a beginner-friendly book.
 
 I tried this project 8 weeks ago, but hit the RESET button because:
-- the v1 skipped over certain parts
-- did some parts incorrectly, or
-- I did them without a complete understanding of the rationale.\
+- the v1 skipped over certain parts or
+- I did them incorrectly, or
+- I did them without a complete understanding of the rationale
 
 __Feeling a lot better with this V2.__
 
