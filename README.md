@@ -14,7 +14,7 @@ I tried this project 8 weeks ago, but hit the RESET button because:
 __Feeling a lot better with this V2.__
 
 ## What I built:
-- I went through 20,000 different housing districts in California and looked at what data was conveniently labelled for me including but not limited to:
+- I went through 20,000 different housing districts in California and looked at what data was conveniently labelled for me including, but not limited to:
   - median household income the area
   - number of rooms
   - proximity to water
@@ -64,7 +64,7 @@ Up until now, I have only used Pycharm to print out statements to test my code. 
 Since I got my start on LeetCode, my original training forced me to use only the core Python functions for solving problems, and I never used libraries like NumPy or Pandas to do calculations. Now I see that Pandas is kind of like giving Python a path to SQL-like queries: "Group this data by X, then return Y description such as an average or a count". It let me convert CSV files into spreadsheets so I didn't have to keep making new tables in a Postgres database.
 
 >**Matplotlib**
-I had seen in a YouTube parody how Python can produce visuals, but I never knew how. This is the visualization tool.
+I had seen in a [YouTube parody](https://www.youtube.com/watch?v=WbNYbxdW3mk&ab_channel=Mr.PSolver) how Python can produce visuals, but I never knew how. This is the visualization tool.
 
 >**Sci-kit Learn / SKLEARN**
 I never heard of this tool, because I haven't touched anything related to data science or ML. This is the tool that holds the predictive models like Linear Regression, Decision Tree, and Random Forest
